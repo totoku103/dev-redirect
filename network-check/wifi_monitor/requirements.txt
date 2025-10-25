@@ -1,0 +1,6 @@
+# 라즈베리파이용 패키지 목록
+psycopg2-binary>=2.9.0
+ping3>=4.0.0
+speedtest-cli>=2.1.0
+python-dotenv>=1.0.0
+schedule>=1.2.0
