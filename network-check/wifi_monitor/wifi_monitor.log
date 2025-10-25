@@ -606,3 +606,122 @@ connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection re
 [2025-10-25 15:34:06,587] INFO - 공유기 체크 결과가 데이터베이스에 저장되었습니다
 [2025-10-25 15:34:13,289] INFO - 선택된 서버: speedtest.moack.co.kr:8080, 응답시간: 13.53ms
 [2025-10-25 15:34:13,289] INFO - 다운로드 속도 측정 중...
+[2025-10-25 15:34:15,573] INFO - 네트워크 체크 시작
+[2025-10-25 15:34:15,573] INFO - 192.168.0.1에 대한 공유기 체크 시작
+[2025-10-25 15:34:15,573] INFO - 속도 테스트 시작
+[2025-10-25 15:34:15,576] INFO - 공유기 체크 완료: 접속가능=True, 응답시간=0.41ms, 패킷손실률=0.00
+[2025-10-25 15:34:15,576] INFO - 공유기 체크 결과: 접속가능=True, 응답시간=0.40787458419799805ms
+[2025-10-25 15:34:15,745] INFO - router 결과가 데이터베이스에 저장되었습니다
+[2025-10-25 15:34:15,745] INFO - 공유기 체크 결과가 데이터베이스에 저장되었습니다
+[2025-10-25 15:34:17,288] INFO - 업로드 속도 측정 중...
+[2025-10-25 15:34:19,084] INFO - 속도 테스트 완료: 다운로드=819.14Mbps, 업로드=705.85Mbps
+[2025-10-25 15:34:19,085] INFO - 속도 테스트 결과: 접속가능=True, 다운로드=819.14Mbps, 업로드=705.85Mbps
+[2025-10-25 15:34:19,173] INFO - speed_test 결과가 데이터베이스에 저장되었습니다
+[2025-10-25 15:34:19,173] INFO - 속도 테스트 결과가 데이터베이스에 저장되었습니다
+[2025-10-25 15:34:19,173] INFO - 모든 체크가 성공적으로 완료되었습니다
+[2025-10-25 15:34:21,934] INFO - Starting network checks
+[2025-10-25 15:34:21,935] INFO - Starting router check for 192.168.0.1
+[2025-10-25 15:34:21,935] INFO - Starting speed test
+[2025-10-25 15:34:21,938] INFO - Router check completed: reachable=True, latency=0.50ms, packet_loss=0.00
+[2025-10-25 15:34:21,938] INFO - Router check result: reachable=True, latency=0.5030632019042969ms
+[2025-10-25 15:34:23,474] INFO - 선택된 서버: speedtest.moack.co.kr:8080, 응답시간: 12.79ms
+[2025-10-25 15:34:23,474] INFO - 다운로드 속도 측정 중...
+[2025-10-25 15:34:26,041] ERROR - Database error: connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2025-10-25 15:34:26,041] WARNING - Failed to save router result to database
+[2025-10-25 15:34:27,728] INFO - 업로드 속도 측정 중...
+[2025-10-25 15:34:29,515] INFO - 속도 테스트 완료: 다운로드=769.87Mbps, 업로드=711.01Mbps
+[2025-10-25 15:34:29,515] INFO - 속도 테스트 결과: 접속가능=True, 다운로드=769.87Mbps, 업로드=711.01Mbps
+[2025-10-25 15:34:29,601] INFO - speed_test 결과가 데이터베이스에 저장되었습니다
+[2025-10-25 15:34:29,601] INFO - 속도 테스트 결과가 데이터베이스에 저장되었습니다
+[2025-10-25 15:34:29,602] INFO - 모든 체크가 성공적으로 완료되었습니다
+[2025-10-25 15:34:31,013] INFO - Selected server: ty8.speedtest.gslnetworks.com:8080, latency: 36.20ms
+[2025-10-25 15:34:31,013] INFO - Measuring download speed...
+[2025-10-25 15:34:33,307] INFO - Starting network checks
+[2025-10-25 15:34:33,308] INFO - Starting router check for 192.168.0.1
+[2025-10-25 15:34:33,308] INFO - Starting speed test
+[2025-10-25 15:34:33,310] INFO - Router check completed: reachable=True, latency=0.41ms, packet_loss=0.00
+[2025-10-25 15:34:33,310] INFO - Router check result: reachable=True, latency=0.4086494445800781ms
+[2025-10-25 15:34:33,382] INFO - router result saved to database
+[2025-10-25 15:34:33,382] INFO - Router result saved to database
+[2025-10-25 15:34:38,250] INFO - Measuring upload speed...
+[2025-10-25 15:34:43,714] INFO - Selected server: speedtest.moack.co.kr:8080, latency: 7.57ms
+[2025-10-25 15:34:43,715] INFO - Measuring download speed...
+[2025-10-25 15:34:47,960] INFO - Measuring upload speed...
+[2025-10-25 15:34:48,338] INFO - Speed test completed: download=401.11Mbps, upload=72.12Mbps
+[2025-10-25 15:34:48,338] INFO - Speed test result: reachable=True, download=401.11Mbps, upload=72.12Mbps
+[2025-10-25 15:34:49,871] INFO - Speed test completed: download=771.56Mbps, upload=664.55Mbps
+[2025-10-25 15:34:49,872] INFO - Speed test result: reachable=True, download=771.56Mbps, upload=664.55Mbps
+[2025-10-25 15:34:49,968] INFO - speed_test result saved to database
+[2025-10-25 15:34:49,968] INFO - Speed test result saved to database
+[2025-10-25 15:34:49,969] INFO - All checks completed successfully
+[2025-10-25 15:34:52,413] ERROR - Database error: connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2025-10-25 15:34:52,413] WARNING - Failed to save speed test result to database
+[2025-10-25 15:34:52,413] ERROR - Both checks failed
+[2025-10-25 15:35:19,190] INFO - 네트워크 체크 시작
+[2025-10-25 15:35:19,190] INFO - 192.168.0.1에 대한 공유기 체크 시작
+[2025-10-25 15:35:19,191] INFO - 속도 테스트 시작
+[2025-10-25 15:35:19,193] INFO - 공유기 체크 완료: 접속가능=True, 응답시간=0.45ms, 패킷손실률=0.00
+[2025-10-25 15:35:19,193] INFO - 공유기 체크 결과: 접속가능=True, 응답시간=0.44971704483032227ms
+[2025-10-25 15:35:19,321] INFO - router 결과가 데이터베이스에 저장되었습니다
+[2025-10-25 15:35:19,321] INFO - 공유기 체크 결과가 데이터베이스에 저장되었습니다
+[2025-10-25 15:35:28,254] INFO - 선택된 서버: speedtest.moack.co.kr:8080, 응답시간: 12.81ms
+[2025-10-25 15:35:28,254] INFO - 다운로드 속도 측정 중...
+[2025-10-25 15:35:29,617] INFO - 네트워크 체크 시작
+[2025-10-25 15:35:29,618] INFO - 192.168.0.1에 대한 공유기 체크 시작
+[2025-10-25 15:35:29,618] INFO - 속도 테스트 시작
+[2025-10-25 15:35:29,620] INFO - 공유기 체크 완료: 접속가능=True, 응답시간=0.43ms, 패킷손실률=0.00
+[2025-10-25 15:35:29,620] INFO - 공유기 체크 결과: 접속가능=True, 응답시간=0.4337430000305176ms
+[2025-10-25 15:35:29,746] INFO - router 결과가 데이터베이스에 저장되었습니다
+[2025-10-25 15:35:29,747] INFO - 공유기 체크 결과가 데이터베이스에 저장되었습니다
+[2025-10-25 15:35:32,307] INFO - 업로드 속도 측정 중...
+[2025-10-25 15:35:34,159] INFO - 속도 테스트 완료: 다운로드=808.22Mbps, 업로드=684.34Mbps
+[2025-10-25 15:35:34,159] INFO - 속도 테스트 결과: 접속가능=True, 다운로드=808.22Mbps, 업로드=684.34Mbps
+[2025-10-25 15:35:34,244] INFO - speed_test 결과가 데이터베이스에 저장되었습니다
+[2025-10-25 15:35:34,244] INFO - 속도 테스트 결과가 데이터베이스에 저장되었습니다
+[2025-10-25 15:35:34,244] INFO - 모든 체크가 성공적으로 완료되었습니다
+[2025-10-25 15:35:35,790] INFO - Starting network checks
+[2025-10-25 15:35:35,791] INFO - Starting router check for 192.168.0.1
+[2025-10-25 15:35:35,791] INFO - Starting speed test
+[2025-10-25 15:35:35,793] INFO - Router check completed: reachable=True, latency=0.39ms, packet_loss=0.00
+[2025-10-25 15:35:35,793] INFO - Router check result: reachable=True, latency=0.39380788803100586ms
+[2025-10-25 15:35:35,885] INFO - router result saved to database
+[2025-10-25 15:35:35,885] INFO - Router result saved to database
+[2025-10-25 15:35:38,391] INFO - 선택된 서버: speedtest.moack.co.kr:8080, 응답시간: 10.56ms
+[2025-10-25 15:35:38,391] INFO - 다운로드 속도 측정 중...
+[2025-10-25 15:35:42,466] INFO - 업로드 속도 측정 중...
+[2025-10-25 15:35:44,226] INFO - 속도 테스트 완료: 다운로드=803.87Mbps, 업로드=721.88Mbps
+[2025-10-25 15:35:44,227] INFO - 속도 테스트 결과: 접속가능=True, 다운로드=803.87Mbps, 업로드=721.88Mbps
+[2025-10-25 15:35:44,315] INFO - speed_test 결과가 데이터베이스에 저장되었습니다
+[2025-10-25 15:35:44,316] INFO - 속도 테스트 결과가 데이터베이스에 저장되었습니다
+[2025-10-25 15:35:44,316] INFO - 모든 체크가 성공적으로 완료되었습니다
+[2025-10-25 15:35:46,684] INFO - Selected server: speedtest.moack.co.kr:8080, latency: 12.65ms
+[2025-10-25 15:35:46,684] INFO - Measuring download speed...
+[2025-10-25 15:35:49,985] INFO - Starting network checks
+[2025-10-25 15:35:49,985] INFO - Starting router check for 192.168.0.1
+[2025-10-25 15:35:49,986] INFO - Starting speed test
+[2025-10-25 15:35:49,988] INFO - Router check completed: reachable=True, latency=0.40ms, packet_loss=0.00
+[2025-10-25 15:35:49,988] INFO - Router check result: reachable=True, latency=0.40453672409057617ms
+[2025-10-25 15:35:50,329] INFO - router result saved to database
+[2025-10-25 15:35:50,330] INFO - Router result saved to database
+[2025-10-25 15:35:51,374] INFO - Measuring upload speed...
+[2025-10-25 15:35:53,187] INFO - Speed test completed: download=698.43Mbps, upload=699.36Mbps
+[2025-10-25 15:35:53,187] INFO - Speed test result: reachable=True, download=698.43Mbps, upload=699.36Mbps
+[2025-10-25 15:35:53,263] INFO - speed_test result saved to database
+[2025-10-25 15:35:53,263] INFO - Speed test result saved to database
+[2025-10-25 15:35:53,263] INFO - All checks completed successfully
+[2025-10-25 15:35:59,205] INFO - Selected server: speedtest.moack.co.kr:8080, latency: 13.42ms
+[2025-10-25 15:35:59,205] INFO - Measuring download speed...
+[2025-10-25 15:36:03,295] INFO - Measuring upload speed...
+[2025-10-25 15:36:05,106] INFO - Speed test completed: download=800.96Mbps, upload=700.99Mbps
+[2025-10-25 15:36:05,106] INFO - Speed test result: reachable=True, download=800.96Mbps, upload=700.99Mbps
+[2025-10-25 15:36:05,190] INFO - speed_test result saved to database
+[2025-10-25 15:36:05,191] INFO - Speed test result saved to database
+[2025-10-25 15:36:05,191] INFO - All checks completed successfully
